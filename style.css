@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 1px 5px .5px ;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items , .nav-list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+select{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cta-btn{
+    background-color: rgb(53, 240, 53);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(189, 241, 237, 0.781);
+}
+.text-section{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    padding-left: 150px;
+}
+/* text in home page */
+.hero-title{
+    font-size: 4rem;
+    font-family: serif;
+}
+.text-section p{
+    font-size: 0.8rem;
+}
+.input{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+}
+.input input{
+    border: none;
+    background-color: transparent;
+}
+.input button{
+    border: none;
+    background-color: rgb(240, 186, 50);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.flex div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.flex div i{
+    background-color: green;
+    color: white;
+    padding: 1px;
+    border-radius:50% ;
+}
+.image-section{
+    width: 50vw;
+    height: 90vh;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.boy-img{
+    position: absolute;
+    height: 130vh;
+    left: -100px;
+    bottom: -390px;
+    z-index: 2;
+}
+.girl-img{
+    position: absolute;
+    height: 75vh;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
